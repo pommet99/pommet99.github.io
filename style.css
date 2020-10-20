@@ -5,7 +5,7 @@ body{
 
 .background{
     width: 100%;
-    height: auto;
+    height: 1050px;
     background-image: url(img/maintenance.png);
     object-fit: cover;
 }
@@ -13,7 +13,7 @@ body{
 .example{
     width: 20%;
     height: auto;
-
+    margin-bottom: -5%;
 }
 
 .logo{
@@ -26,27 +26,20 @@ body{
 .contact{
     position: absolute;
     font-size: 3vw;
-    margin-top:35%;
-    margin-left: 7%;
+    margin-top:45%; 
+    margin-left:30%;
 }
 
-
-  /* On screens that are 992px or less, set the background color to blue */
-  @media screen and (max-width: 992px) {
-    .background{
-        width: 40%;
-        height: auto;
-        background-image: url(img/maintenance.png);
-        object-fit: cover;
-    }
-  }
   
   /* On screens that are 600px or less, set the background color to olive */
   @media screen and (max-width: 600px) {
     .background{
-        width: 10%;
-        height: auto;
-        background-image: url(img/maintenance.png);
-        object-fit: cover;
+        display: none;
     }
+
+    .responsive{
+     display: unset;
+     background-color: black;
+    }
+    
   }
