@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+}
+
+.background{
+    max-width: 100%;
+    height: auto;
+}
+
+.example{
+    max-width: 100%;
+    height: auto;
+}
+
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+
+.excontroller{
+    width:70%;
+    margin-left: 15%;
+}
+
+.locontroller{
+    width:10%
+}
+
+.contact{
+    margin-left: 25%;
+    font-size: 3vw;
+}
+
+@media screen and (max-width: 800px) {
+    .locontroller{
+      width: 20%;
+    }
+  }
