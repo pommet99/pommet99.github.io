@@ -4,36 +4,31 @@ body{
 }
 
 .background{
-    max-width: 100%;
-    height: auto;
+    width: 100%;
+    height: 1050px;
+    background-image: url(img/maintenance.png);
 }
 
 .example{
-    max-width: 100%;
+    width: 20%;
     height: auto;
+    margin-top:32%;
 }
 
 .logo{
-    max-width: 100%;
+    width: 12%;
     height: auto;
-}
-
-.excontroller{
-    width:70%;
-    margin-left: 15%;
-}
-
-.locontroller{
-    width:10%
+    margin-bottom: 600px;
+    margin-left:25%;
 }
 
 .contact{
-    margin-left: 25%;
+    position: absolute;
     font-size: 3vw;
+    margin-top:35%;
+    margin-left: 7%;
 }
 
 @media screen and (max-width: 800px) {
-    .locontroller{
-      width: 20%;
-    }
+    
   }
