@@ -13,7 +13,7 @@ body{
 .example{
     width: 20%;
     height: auto;
-    margin-top:32%;
+
 }
 
 .logo{
@@ -30,6 +30,23 @@ body{
     margin-left: 7%;
 }
 
-@media screen and (max-width: 800px) {
-    
+
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    .background{
+        width: 40%;
+        height: auto;
+        background-image: url(img/maintenance.png);
+        object-fit: cover;
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    .background{
+        width: 10%;
+        height: auto;
+        background-image: url(img/maintenance.png);
+        object-fit: cover;
+    }
   }
