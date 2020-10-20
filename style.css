@@ -5,8 +5,9 @@ body{
 
 .background{
     width: 100%;
-    height: 1050px;
+    height: auto;
     background-image: url(img/maintenance.png);
+    object-fit: cover;
 }
 
 .example{
