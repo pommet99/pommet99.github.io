@@ -33,28 +33,29 @@ body{
 }
 
 .titre{
+    position: absolute;
     font-size: 7vw;
     margin-left: 20%;
+    margin-top: 8%;
 }
 
-.contact{
-    font-size: 4vw;
-    margin-left: 21%;
-}
+.button {
+    position: absolute;
+    font-size: 1.5vw;
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding:5px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 80%;
+    margin-top: 30%;
+  }
 
-.example{
-    width:20%;
-}
+  .button:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
 
-.citation{
-    font-size: 2vw;
-    margin-left: 45%;
-}
-
-.citation2{
-    font-size: 2vw;
-    margin-left: 75%;
-}
 
 @media only screen and (max-width: 600px) {
     .example{
