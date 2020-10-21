@@ -3,7 +3,7 @@ body{
     padding:0;
 }
 
-.row{
+.container{
         /* Location of the image */
         background-image: url(img/bk.png);
         
@@ -29,22 +29,30 @@ body{
 }
 
 .logo{
-    position: absolute;
-    width: 10%;
+    width: 12%;
 }
 
-.example{
-    position: absolute;
-    width: 20%;
-    margin-top: 30%;
- 
+.titre{
+    font-size: 7vw;
+    margin-left: 20%;
 }
 
 .contact{
-    position: absolute;
-    font-size: 3vw;
-    margin-top:30%; 
-    margin-left:30%
+    font-size: 4vw;
+    margin-left: 21%;
 }
 
- 
+.example{
+    width:20%;
+    margin-top: 3%;
+}
+
+.citation{
+    font-size: 2vw;
+    margin-left: 50%;
+}
+
+.citation2{
+    font-size: 2vw;
+    margin-left: 80%;
+}
