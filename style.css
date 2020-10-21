@@ -55,3 +55,9 @@ body{
     font-size: 2vw;
     margin-left: 70%;
 }
+
+@media only screen and (max-width: 600px) {
+    .example{
+        margin-top: 10%;
+    }
+  }
